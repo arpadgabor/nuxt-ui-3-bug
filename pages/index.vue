@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <Form class="w-full flex items-center justify-center h-full">
+    <Form class="w-full flex items-center justify-center h-screen gap-x-4">
       <Field name="field" v-slot="{ componentField }">
         <USelectMenu
           class="w-32"
